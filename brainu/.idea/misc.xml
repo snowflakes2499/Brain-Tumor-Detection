@@ -4,6 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/brainu/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/activity_about_us.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/fragment_detection.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/fragment_references.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/layout/splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Documents/GitHub/Mega-Project/brainu/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
         <entry key="..\:/brainu/app/src/main/res/drawable/splash_screen.xml" value="0.2035" />
         <entry key="..\:/brainu/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
         <entry key="..\:/brainu/app/src/main/res/layout/activity_main.xml" value="0.25" />

@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".AboutUsActivity">
 
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="212dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/pic_about_us"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about_us_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="About us: \nWe are a team of four college students passionate about using technology to make a positive impact on society."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/app_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Our app: \nOur app, Brain Tumor Detector, is designed to help individuals detect brain tumors early on by analyzing MRI scans using machine learning algorithms."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_us_text" />
+
+    <TextView
+        android:id="@+id/mission_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Our mission: \nOur mission is to improve the early detection and treatment of brain tumors, ultimately leading to better outcomes for patients."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_text" />
+
+    <TextView
+        android:id="@+id/team_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Our team: \nOur team consists of four members with diverse backgrounds in computer science, engineering, and healthcare, each bringing a unique set of skills to the project."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mission_text" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

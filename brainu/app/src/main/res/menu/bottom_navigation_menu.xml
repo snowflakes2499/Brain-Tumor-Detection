@@ -13,8 +13,8 @@
 
     <item
         android:id="@+id/references_item"
-        android:title="References"
-        android:icon="@drawable/references" />
+        android:title="Treatment"
+        android:icon="@drawable/treatment" />
 
 
 </menu>

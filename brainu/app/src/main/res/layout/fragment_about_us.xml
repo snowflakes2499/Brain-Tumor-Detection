@@ -1,23 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    tools:context=".AboutUsActivity">
 
-   <!-- Add your layout components here -->
+   <ImageView
+       android:id="@+id/image_view"
+       android:layout_width="235dp"
+       android:layout_height="241dp"
+       android:layout_marginStart="68dp"
+       android:layout_marginTop="16dp"
+       android:src="@drawable/new_about"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
    <TextView
+       android:id="@+id/about_us_text"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="About Us"
-       android:textSize="25dp"
-       android:layout_centerInParent="true"/>
+       android:layout_marginTop="276dp"
+       android:text="About us: \nWe are a team of four college students passionate about using technology to make a positive impact on society."
+       android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
 
-   <com.google.android.material.bottomnavigation.BottomNavigationView
-       android:id="@+id/bottom_navigation_view"
-       android:layout_width="match_parent"
+   <TextView
+       android:id="@+id/app_text"
+       android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:visibility="gone"
-       app:menu="@menu/bottom_navigation_menu" />
+       android:layout_marginTop="40dp"
+       android:text="Our app: \nOur app, Brain Tumor Detector, is designed to help individuals detect brain tumors early on by analyzing MRI scans using machine learning algorithms."
+       android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/about_us_text" />
 
-</RelativeLayout>
+   <TextView
+       android:id="@+id/mission_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="36dp"
+       android:text="Our mission: \nOur mission is to improve the early detection and treatment of brain tumors, ultimately leading to better outcomes for patients."
+       android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/app_text" />
+
+   <TextView
+       android:id="@+id/team_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="36dp"
+       android:text="Our team: \nOur team consists of four members with diverse backgrounds in computer science, engineering, and healthcare, each bringing a unique set of skills to the project."
+       android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/mission_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

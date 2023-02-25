@@ -21,11 +21,23 @@
         app:riv_mutate_background="true"
         tools:ignore="MissingClass" />
 
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select an image and click on predict"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/brainImg"
+        app:layout_constraintEnd_toEndOf="@+id/select"
+        app:layout_constraintStart_toStartOf="@+id/select"
+        app:layout_constraintBottom_toTopOf="@+id/select"/>
+
+
     <Button
         android:id="@+id/select"
         android:layout_width="150dp"
         android:layout_height="59dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="70dp"
         android:text="select"
         app:layout_constraintEnd_toEndOf="@+id/brainImg"
         app:layout_constraintHorizontal_bias="0.514"
@@ -36,17 +48,19 @@
         android:id="@+id/predict"
         android:layout_width="158dp"
         android:layout_height="61dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="50dp"
         android:text="PREDICT"
         app:layout_constraintEnd_toEndOf="@+id/select"
         app:layout_constraintStart_toStartOf="@+id/select"
         app:layout_constraintTop_toBottomOf="@+id/select" />
 
+
+
     <TextView
         android:id="@+id/output"
-        android:layout_width="205dp"
+        android:layout_width="200dp"
         android:layout_height="51dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="78dp"
         android:fontFamily="sans-serif-black"
         android:text="OUTPUT"
