@@ -36,3 +36,8 @@ Note: You will need Android Studio to run the application on Windows.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
+
+## Authors
+[Khushi Bora - Co-creator](https://github.com/snowflakes2499)
+
+[Shrishail Rugge - Co-creator](https://github.com/ingenium9)
